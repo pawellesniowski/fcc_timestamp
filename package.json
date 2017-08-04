@@ -1,10 +1,10 @@
 {
-  "name": "timestamp",
+  "name": "fcc_timestamp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "author": "pawellesniowski",
   "license": "ISC",
@@ -13,5 +13,8 @@
     "cors": "^2.8.4",
     "express": "^4.15.3",
     "moment": "^2.18.1"
+  },
+  "engines": {
+    "node": "8.1.3"
   }
 }
